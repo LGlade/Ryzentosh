@@ -10,7 +10,6 @@
 
 **macOS v.** 10.13.6  
 **OpenCore version**: 0.7.5
-**Dont update to a version further than 10.13.6, you may experience severe graphical issues, This specific card's support was dropped after High Sierra**
 
 ## Instructions
   1. Make your USB installer with (https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) either from macOS or Windows. The MacOS way is recommended with the use    of a real Mac or a virtualized mac via VirtualBox since network kexts don't always work.
@@ -18,6 +17,7 @@
   4. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information and ensure you have the right type of mac for your hardware and input it into the software.
   5. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) and input their respective values. Change ROM to your network card's MAC or physical address without the `:` characters. You can find out this information by running (ipconfig /all) on Windows.
   6. Boot from it and ensure you have the correct UEFI or BIOS configurations.
+  7. Post install: Dont update to a version further than 10.13.6, you may experience severe graphical issues, This specific card's support was dropped after High Sierra.
 
 ## All rights go to their respective owners:
 **Software:**

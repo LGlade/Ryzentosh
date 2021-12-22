@@ -10,6 +10,7 @@
 
 **macOS v.** 10.13.6  
 **OpenCore version**: 0.7.5
+**Dont update to a version further than 10.13.6, you may experience severe graphical issues, This specific card's support was dropped after High Sierra**
 
 ## Instructions
   1. Make your USB installer with (https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) either from macOS or Windows. The MacOS way is recommended with the use    of a real Mac or a virtualized mac via VirtualBox since network kexts don't always work.

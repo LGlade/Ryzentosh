@@ -28,7 +28,6 @@ OpenCore (OC 0.7.5) EFI for AMD Ryzen 3 1300x or similar Ryzen Chips (macOS 10.1
  - [[Kext] Lilu](https://github.com/acidanthera/Lilu)
  - [[Kext] VirtualSMC](https://github.com/acidanthera/VirtualSMC)
  - [[Kext] WhateverGreen](https://github.com/acidanthera/WhateverGreen)
- - [[Kext] AppleALC](https://github.com/acidanthera/AppleALC)
  - [[Kext] AMDRyzenCPUPowerManagement](https://github.com/trulyspinach/SMCAMDProcessor)
  - [[Kext] AppleMCEReporterDisabler](https://github.com/AMD-OSX/AMD_Vanilla/blob/experimental-opencore/Extra/AppleMCEReporterDisabler.kext.zip)
 

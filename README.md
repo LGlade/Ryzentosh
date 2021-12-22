@@ -13,10 +13,10 @@ OpenCore (OC 0.7.5) EFI for AMD Ryzen 3 1300x or similar Ryzen Chips (macOS 10.1
 
 ## Instructions
   1. Make your USB installer with (https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) either from macOS or Windows. The MacOS way is recommended with the use    of a real Mac or a virtualized mac via VirtualBox since network kexts don't always work.
-  2. Copy the EFI an paste in at the root of the EFI of the formatted USB
-  3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information and ensure you have the right type of mac for your hardware and input it into the software.
-  4. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) and input their respective values. Change ROM to your network card's MAC or physical address without the `:` characters. You can find out this information by running (ipconfig /all) on Windows.
-  5. Boot from it and ensure you have the correct UEFI or BIOS configurations.
+  2. Copy the EFI and paste in at the root of the EFI of the formatted USB, if there is anything there delete it. You can mount the EFI either from Mac (mountefi) or Windows (Minitool Patition Wizard>Change letter>Apply).
+  4. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information and ensure you have the right type of mac for your hardware and input it into the software.
+  5. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) and input their respective values. Change ROM to your network card's MAC or physical address without the `:` characters. You can find out this information by running (ipconfig /all) on Windows.
+  6. Boot from it and ensure you have the correct UEFI or BIOS configurations.
 
 ## All rights go to their respective owners:
 **Software:**

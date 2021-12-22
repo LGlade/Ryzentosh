@@ -8,7 +8,7 @@ OpenCore (OC 0.7.5) EFI for AMD Ryzen 3 1300x or similar Ryzen Chips (macOS 10.1
 | GPU | Nvidia GTX 1050ti |
 | DISK | SK Hynix 500gb SSD |
 
-**macOS v.**: 10.13.6  
+**macOS v.** 10.13.6  
 **OpenCore version**: 0.7.5
 
 ## Instructions

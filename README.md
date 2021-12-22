@@ -1,4 +1,4 @@
-#OpenCore (OC 0.7.5) EFI for AMD Ryzen 3 1300x or similar Ryzen Chips (macOS 10.13 - High Sierra Only | Nvidia GTX 1050ti
+OpenCore (OC 0.7.5) EFI for AMD Ryzen 3 1300x or similar Ryzen Chips (macOS 10.13 - High Sierra Only | Nvidia GTX 1050ti
 ## Hardware
 | **Component** | **Model** |
 | ------------- | --------- |

@@ -37,8 +37,5 @@ OpenCore (OC 0.7.5) EFI for AMD Ryzen 3 1300x or similar Ryzen Chips (macOS 10.1
  - [AMD-OSX Developers](https://github.com/AMD-OSX) for kernel patches for AMD CPUs
  - [Acidanthera](https://github.com/acidanthera) for OpenCore and most of used kexts
  - [Trulyspinach](https://github.com/trulyspinach) for Ryzen power management and monitoring kexts
- - [Mieze](https://github.com/Mieze) for RealtekRTL8111 kext
  - [Dortania](https://github.com/dortania) for OpenCore configuration guides
- - [XLNC](https://github.com/naveenkrdy) for Adobe patches for AMD CPUs
- - [AMD-OSX Community](https://amd-osx.com) for support while making my Hackintosh
 <br>
